@@ -12,10 +12,11 @@ print(type(demet2))
 # kümeler 12
 # indekslenemez , tekrarlı eleman olamaz, süslü parantezle gösterilir
 # metotlar olmadan değişiklik yapılmaz
+
 küme ={"gülcihan", 46}
 print(type(küme)) # <class 'set'>
 küme2 = set() # boş küme oluşturma
-print(küme2) # set() """
+print(küme2) # set()
 
 # veri  tiplerini dönüştürme 13
 
