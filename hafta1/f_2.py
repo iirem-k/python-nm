@@ -1,16 +1,16 @@
 #11
-""" liste =["gülcihan", 46]
+liste =["gülcihan", 46]
 print(type(liste)) """ # liste yapısı  <class 'list'>
 
-""" demet1 = ("gülcihan") # str yapıda <class 'str'>
+demet1 = ("gülcihan") # str yapıda <class 'str'>
 
 demet2 =("gülcihan", 46) # demet yapıda <class 'tuple'> 
 print(type(demet2))
 # demetler birleştirilemez, değiştirilemez, üzerinde işlem yapılmaz
 
- """
+
 # kümeler 12
-""" # indekslenemez , tekrarlı eleman olamaz, süslü parantezle gösterilir
+# indekslenemez , tekrarlı eleman olamaz, süslü parantezle gösterilir
 # metotlar olmadan değişiklik yapılmaz
 küme ={"gülcihan", 46}
 print(type(küme)) # <class 'set'>
@@ -19,7 +19,7 @@ print(küme2) # set() """
 
 # veri  tiplerini dönüştürme 13
 
-""" a =2 
+a =2 
 b=2.6
 c="24"
 
@@ -48,10 +48,10 @@ print(type(y)) # <class 'tuple'> demet yapısına dönüştürme
 z= set(x) 
 print(type(z)) # <class 'set'>
 print(z) # {1, 3, 5, 7, 9} kümeye dönüştürme
- """
+
 
 #ınput fonksiyonu 14
-""" x = input("ilk sayıyı giriniz: ")
+x = input("ilk sayıyı giriniz: ")
 y = input("ikinci sayıyı giriniz: ")
 z=float(x)+float(y)
 print("sonuç: " + str(z) )
@@ -63,18 +63,18 @@ yçap = float(çap)/2
 Pi =3.14159
 Alan= Pi*(yçap*yçap)
 print("dairenin alanı: " + str(Alan)) 
- """
+
 
 #sınıf- nesne- metot -15
-""" x= "merhaba"
+x= "merhaba"
 print(x.index("e")) #indeks num verir
 print(x.count("a")) # kaç tane a harfi bulunuyor? >> 2
 print(dir(str))
 
-print(dir(list)) """
+print(dir(list)) 
 
 # sayısal metotlar -16
-""" 
+
 x=-2
 print(x.__abs__())
 print(abs(x))
@@ -88,11 +88,11 @@ z=4.5
 print(z.as_integer_ratio()) # z sayısını yakalayabilmek için bölünmesi gereken sayıları gösteriyor
 
 print(z.is_integer()) # ondalık kısım 0 dan farklı ise false 
- """
+
 
 #karakter dizleri metodları -17
 
-""" x= "     anlaşılır ekonomi" 
+ x= "     anlaşılır ekonomi" 
 y= x.upper()  # lower() tamamını küçük harf yapar
 print(y) #ANLAŞILIR EKONOMI
 
@@ -149,10 +149,10 @@ bilgiler =[adı,soyadı,görevi]
 print("kişinin adı:{} ,kişinin soyadı:{} ,kişinin görevi:{}"
       .format(bilgiler[0],bilgiler[1],bilgiler[2])) 
 #kişinin adı:behçet ,kişinin soyadı:kaya ,kişinin görevi:emekli
- """
+
 
 # liste metotları -18
-""" liste=[1,2,5,"merhaba",2.5]
+liste=[1,2,5,"merhaba",2.5]
 liste.append("anlaşılır ekonomi") # başka bir ifadeye atama yapmaz sadece kendi içinde yapar
 print(liste) #[1, 2, 5, 'merhaba', 2.5, 'anlaşılır ekonomi']
 
@@ -186,13 +186,13 @@ print(liste5) #[1, 1, 3, 5, 6, 7, 8, 9, 9]
 
 liste5.clear()
 print(liste5) #[]
- """
+
 #demet metotları -19
 
-""" x = (1,1,"Merhaba",2.5)
+x = (1,1,"Merhaba",2.5)
 print(x.index(2.5)) # 2.5 verisinin kaçıncı indekste olduğunu yazdıran metot.
 #.count(2.5) metodu ise bize 2.5 verisinden demetimizde kaç tane olduğunu yazdıracak.
- """
+
 
 #sözlük metotları -20
 Bilgi ={
@@ -211,22 +211,3 @@ print(Bilgi.__len__()) #5
 Bilgi.pop("Tcno")
 print(Bilgi) # {'Ad': 'anlaşılır', 'soyad': 'ekonomi', 'dyer': 'ankara', 'cinsiyet': 'erkek'}
 # copy ve clear metodu da kullanılabilir
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
